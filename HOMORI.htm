@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Breaking Bad</title>
+
+</head>
+<body>
+
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Comic Sans MS;
+}
+
+/* Style the header */
+header {
+  background-color: #5c91fa;
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #de9631;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #de9631;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #fcb500;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<header>
+  <h2 style="color:#004de6;">Hola, y Bienvenido a Los Pollos Hermanos Family</h2>
+</header>
+
+<nav>
+<p style="color:Black;">Mi nombre es Erik, pero puedes llamarme Gus. Estoy encantado de que te unas a nuestro equipo todos los días. Servimos a nuestros clientes comida excepcional con un servicio impecable. Nos enorgullecemos de todo lo que hacemos y después de este seminario en línea de 10 semanas, estoy seguro de que encajarás perfectamente. Me gusta pensar que veo cosas en las personas.</p>
+</nav>
+
+<img src="Pollos.jpg" alt="Pollos" style="width:500px;height:300px;">
+
+<img src="Pollos2.jpg" alt="Pollos" style="width:300px;height:300px;">
+<body style="background-color:#fcb500;">
+<article>
+<p style="color:Black;"> Para empezar, me gustaría hablar sobre la piedra angular de la marca Los Pollos Hermanos: comunicación. Como empleado de Los Pollos Hermanos, usted establece el tono para toda la experiencia gastronómica. Sea consciente de lo que sus palabras y comportamiento comunican a nuestros invitados. Siempre sea consciente de su postura. Recuerde pararse derecho. Sus clientes y su espalda se lo agradecerán. Esfuércese por su apariencia. Todos los empleados deben vestirse apropiadamente. Mantenga su uniforme limpio y planchado. Si quiere respeto, debe verse respetable. Hable con oraciones completas. Nunca usamos saludos de una sola palabra como "hey" o "sí". Siempre haga contacto visual y, finalmente, ya sea que esté con el cliente o no, mantenga la compostura por dentro. Puede estar pensando en su tarea, sus amigos o su negocio secundario, pero no Uno debería saberlo porque en Lowe's Poison Mallos siempre hay alguien mirando. No olvides sonreír. Eso es todo por hoy. Nos vemos la próxima vez cuando hablemos de limpieza. </p>
+</article>
+
+
+<section>
+  <nav>
+    <ul>
+<a href="https://www.youtube.com/watch?v=B9RgougnhiE" target="_blank">Formación de empleados: Comunicación</a>
+    </ul>
+  </nav>
+  
+</section>
+
+<footer>
+<img src="Bettercallsaul.jpg" alt="Pollos" style="width:1300px;height:300px;">
+</footer>
+
+
+</body>
+</html>
